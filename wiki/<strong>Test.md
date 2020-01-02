@@ -1,3 +1,3 @@
-# Test for escaping
+Test for escaping
 
 <strong>Test</strong>
