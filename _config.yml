@@ -1,7 +1,7 @@
 # (string) Title of your wiki
 title: git-wiki
 description: Git-Wiki demo and documentation
-show_downloads: true
+show_downloads: false
 show_wiki_pages: true
 show_wiki_pages_limit: 10
 paginate: 5
@@ -17,7 +17,7 @@ use_github_wiki: false
 use_prose_io: true
 service: github
 search_engine : "js"
-google_cse_token: 007197903287787072094:8rbvkeqo6qw
+google_cse_token:
 wiki_folder : "wiki"
 permalink: /blog/posts/:year/:month/:day/:title:output_ext
 
@@ -72,7 +72,7 @@ plugins:
 inc_before_toc : 
 inc_after_toc :
 inc_before_content :
-inc_after_content: "drassil/comments.html"
+inc_after_content:
 inc_before_footer :
 inc_after_footer : 
 inc_before_head : 
